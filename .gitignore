@@ -137,3 +137,13 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Monorepo build outputs (already mostly covered, but explicit is fine)
+client/dist/
+server/dist/
+
+# Editor settings (if you want)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
